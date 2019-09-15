@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>KingFitness | Personal Training</title>
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-container">
+                <h1><span>King</span>Fitness</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#prices">Pricing</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <li><a href="testimonial.html">Testimonials</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="showcase">
+            <div class="showcase-container">
+                <h2>Leave Your Mark</h2>
+            </div>
+        </div>
+    </header>
+
+    <section id="about-me">
+        <div class="about-me">
+            <div class="about-me-container">
+                <div class="about-me-description">
+                    <h1>Harold James Pena</h1>
+                    <p>My philosophy focuses on continual lifelong learning as I work towards enhancing the well-being of my clients by empowering them with the knowledge, skills, support, guidance and resources to assist and inspire them on their journey to a healthier life. Together we will transform your quality of life through active participation in regular fitness activities and the integration of guided fitness programs, to make your health goals become a reality, in a caring, fun, and dynamic environment </p>
+                </div>
+                <div class="about-me-image">
+                    <img src="images/king.JPG" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="prices">
+        <div class="pricing">
+            <div class="pricing-container">
+                <div class="prices">
+                    <h1>Basic</h1>
+                    <p>1 Pass</p>
+                    <p>10$/month</p>
+                    <p>Meal plan</p>
+                </div>
+                <div class="prices">
+                    <h1>Standard</h1>
+                    <p>2 Passes</p>
+                    <p>20$/month</p>
+                    <p>Full Access</p>
+                </div>
+                <div class="prices">
+                    <h1>Premium</h1>
+                    <p>30/month</p>
+                    <p>Full Access</p>
+                    <p>Kahit ano</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-me">
+            <div class="contact-me-container">
+               <form id="contact-form" class="form-info" action="#">
+                   <div class="phone-name-email">
+                        <h1>Contact Me</h1>
+                        <div class="alert">Your message has been sent</div>
+                        <div class="name item">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="enter name">
+                        </div>
+                        <div class="email-address item">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="enter email">
+                        </div>
+                        <div class="phone-number item">
+                            <label for="phone">Phone</label>
+                            <input type="number" name="phone" id="phone" placeholder="enter phone #">
+                        </div>
+                    </div>
+                    <div class="message-form">
+                        <textarea name="message" id="message" cols="30" rows="5" placeholder="leave me a message"></textarea>
+                    </div>
+                   
+                   <div class="submit-form">
+                       <input type="submit" value="Send">
+                   </div>
+
+               </form> 
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="copyright">
+                &copy; KingFitness 2019
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-database.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
